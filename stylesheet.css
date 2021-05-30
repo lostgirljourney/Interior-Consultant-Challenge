@@ -1,0 +1,604 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #181719;
+  color: white;
+  box-sizing: border-box;
+  position: relative;
+  display: grid;
+  place-items: center;
+  height: 100%;
+  width: auto;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+/* links */
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/* unordered list */
+
+ul {
+  list-style: none;
+}
+
+/* This Interior */
+
+#body-title {
+  position: absolute;
+  width: 102px;
+  height: 32px;
+  left: 77px;
+  top: 42px;
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  padding: 8px;
+}
+
+#body-title:hover {
+  cursor: default;
+  box-sizing: border-box;
+  color: #181719;
+  background-color: white;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+#title-text {
+  position: absolute;
+  width: 86px;
+  height: 16px;
+  font-family: "Crimson Pro";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+/* Home (nav item) */
+
+#home-text {
+  font-weight: bold;
+  border-bottom: 2px solid #ffffff;
+  padding-bottom: 4px;
+}
+
+/* nav items decoration on hovering and after */
+
+.ctext:hover,
+.ctext::after {
+  cursor: pointer;
+  font-weight: bold;
+  border-bottom: 2px solid #ffffff;
+  padding-bottom: 4px;
+}
+
+/* home pic css */
+
+#home-pic {
+  position: absolute;
+  width: 732px;
+  height: 550px;
+  left: 549px;
+  top: 200px;
+}
+
+/* Modern interior */
+
+#head-text {
+  position: absolute;
+  width: 365px;
+  height: 61px;
+  left: 77px;
+  top: 381px;
+  font-family: Lora;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 61px;
+}
+
+/* Modern interior - description */
+
+#body-text {
+  position: absolute;
+  width: 410px;
+  height: 145px;
+  left: 77px;
+  top: 482px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 29px;
+}
+
+/* Modern interior - read more */
+
+#body-xtra {
+  position: absolute;
+  width: 103px;
+  height: 22px;
+  left: 75px;
+  top: 663px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 22px;
+  padding: 2px;
+}
+
+#body-xtra:hover {
+  cursor: pointer;
+  background-color: #ffffff;
+  color: #181719;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+/* designer details card */
+
+/* outer layout */
+
+#main-card {
+  position: absolute;
+  width: 410px;
+  height: 189px;
+  left: 842px;
+  top: 672px;
+  background-color: #181719;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* designer's photo */
+
+#own-pic {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  left: 31px;
+  top: 18px;
+  border-radius: 37px;
+}
+
+/* designer's details */
+
+.owner-details {
+  position: absolute;
+  left: 100px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+}
+
+/* designer's name */
+
+#card-name {
+  width: 95px;
+  height: 17px;
+  top: 23px;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+/* designer's title */
+
+#card-title {
+  width: 102px;
+  height: 15px;
+  top: 48px;
+  font-size: 12px;
+  line-height: 15px;
+  color: #828282;
+}
+
+/* designer's details */
+
+#card-body {
+  position: absolute;
+  width: 287px;
+  height: 62px;
+  left: 26px;
+  top: 93px;
+  font-family: Lora;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 31px;
+}
+
+/* username */
+
+footer {
+  font-family: Montserrat, sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  vertical-align: top;
+  text-align: center;
+  align-items: center;
+  color: #bdbdbd;
+  padding-top: 1000px;
+  padding-bottom: 24px;
+}
+
+/* media for width >= 1031px screen */
+
+@media only screen and (min-width: 1031px) {
+  .checkbtn,
+  #check,
+  .close,
+  .checkbtnclose {
+    display: none;
+  }
+
+  ul {
+    float: right;
+    margin-right: 76px;
+  }
+
+  li {
+    float: left;
+    margin: 32px 0;
+  }
+
+  .ctext {
+    margin: 0 50px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  nav {
+    position: fixed;
+    width: 100%;
+    z-index: 3000;
+    background-color: #181719e8;
+  }
+}
+
+/* media for width <= 1030px screen */
+
+@media only screen and (max-width: 1030px) {
+  #home-pic,
+  #body-title,
+  #head-text,
+  #body-text,
+  #body-xtra {
+    left: 100px;
+  }
+
+  nav {
+    background-color: #181719;
+    z-index: 2400;
+  }
+
+  .checkbtn,
+  .checkbtnclose {
+    position: absolute;
+    top: 46px;
+    right: 77px;
+  }
+
+  .checkbtnclose {
+    opacity: 0;
+    z-index: 3000;
+    position: fixed;
+  }
+
+  li {
+    clear: left;
+  }
+
+  #check {
+    display: none;
+  }
+
+  input#check:checked ~ ul {
+    display: inline-block;
+  }
+
+  input#check:checked ~ .checkbtnclose {
+    opacity: 1;
+  }
+
+  input#check:checked ~ .checkbtn {
+    display: none;
+  }
+
+  ul {
+    position: fixed;
+    text-align: center;
+    clear: right;
+    margin: 0;
+    left: 0;
+    padding: 240px 0 200px;
+    width: 100%;
+    height: 100%;
+    display: none;
+    z-index: 2400;
+    background-color: #181719;
+  }
+
+  .c-text {
+    margin: 30px 0;
+    font-family: Montserrat;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  #home-pic {
+    width: 532px;
+    height: 350px;
+    top: 458px;
+  }
+
+  #head-text {
+    top: 100px;
+  }
+
+  #body-text {
+    top: 201px;
+  }
+
+  #body-xtra {
+    top: 382px;
+  }
+
+  #main-card {
+    left: 210px;
+    top: 735px;
+  }
+}
+
+@media only screen and (min-width: 1031px) and (max-width: 1330px) {
+  #head-text {
+    top: 150px;
+  }
+
+  #body-text {
+    top: 250px;
+  }
+
+  #body-xtra {
+    top: 450px;
+  }
+
+  #home-pic {
+    width: 832px;
+    height: 550px;
+    top: 558px;
+    left: 77px;
+  }
+
+  #main-card {
+    left: 475px;
+    top: 1030px;
+  }
+
+  footer {
+    padding-top: 1300px;
+  }
+}
+
+@media only screen and (min-width: 800px) and (max-width: 1030px) {
+  #home-pic {
+    width: 632px;
+    height: 450px;
+    top: 458px;
+  }
+
+  #main-card {
+    left: 300px;
+    top: 835px;
+  }
+
+  footer {
+    padding-top: 1100px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  #home-pic,
+  #body-title,
+  #head-text,
+  #body-text,
+  #body-xtra {
+    left: 25px;
+  }
+
+  .checkbtn,
+  .checkbtnclose {
+    right: 25px;
+  }
+
+  #home-pic {
+    width: 549px;
+    height: 412.5px;
+  }
+
+  #main-card {
+    width: 455px;
+    height: 200px;
+    left: 98px;
+    top: 800px;
+  }
+
+  footer {
+    padding-top: 1075px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #home-pic,
+  #body-title,
+  #head-text,
+  #body-text,
+  #body-xtra {
+    left: 25px;
+  }
+
+  #home-pic {
+    width: 475.5px;
+    height: 357.5px;
+  }
+
+  #main-card {
+    width: 375px;
+    height: 190px;
+    left: 98px;
+    top: 750px;
+  }
+
+  footer {
+    padding-top: 1000px;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  #home-pic,
+  #body-title,
+  #head-text,
+  #body-text,
+  #body-xtra {
+    left: 12px;
+  }
+
+  #head-text {
+    font-size: 36px;
+    line-height: 46px;
+  }
+
+  #body-text {
+    font-size: 24px;
+    line-height: 1.25;
+  }
+
+  .checkbtn,
+  .checkbtnclose {
+    right: 12px;
+  }
+
+  #card-body {
+    top: 90px;
+    font-size: 20px;
+    line-height: 1.5;
+  }
+
+  footer {
+    padding-top: 1000px;
+  }
+}
+@media only screen and (max-width: 510px) {
+  #home-pic {
+    width: 402.6px;
+    height: 302.5px;
+  }
+
+  #main-card {
+    width: 345px;
+    height: 170px;
+    left: 56px;
+    top: 710px;
+  }
+
+  footer {
+    padding-top: 925px;
+  }
+}
+@media only screen and (max-width: 440px) {
+  #home-pic,
+  #body-title,
+  #head-text,
+  #body-text,
+  #body-xtra {
+    left: 10px;
+  }
+
+  .checkbtn,
+  .checkbtnclose {
+    right: 10px;
+  }
+
+  #head-text {
+    font-size: 36px;
+    line-height: 46px;
+  }
+
+  #body-text {
+    font-size: 20px;
+    line-height: 1.25;
+    top: 195px;
+    width: 300px;
+    height: 55px;
+  }
+
+  #body-xtra {
+    top: 355px;
+    font-size: 13.5px;
+  }
+
+  #home-pic {
+    width: 352.6px;
+    height: 252.5px;
+    top: 425px;
+  }
+
+  #main-card {
+    width: 300px;
+    height: 155px;
+    left: 56px;
+    top: 645px;
+  }
+
+  #card-body {
+    top: 85px;
+    font-size: 19px;
+    line-height: 1.5;
+  }
+
+  footer {
+    padding-top: 850px;
+  }
+}
+
+@media only screen and (max-width: 390px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  #home-pic,
+  #body-title,
+  #head-text,
+  #body-text,
+  #body-xtra {
+    left: 7.9px;
+  }
+
+  #home-pic {
+    transform: scale(0.95);
+    left: 0px;
+  }
+
+  #main-card {
+    transform: scale(0.95);
+    left: 50px;
+    top: 640px;
+    width: 290px;
+  }
+
+  footer {
+    padding-top: 865px;
+  }
+}

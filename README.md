@@ -36,7 +36,7 @@
   <img src = "assets/Screenshot.jpeg">
 </p>
 
-| Mobile - 1 | Mobile - 2 |
+| Mobile View - 1 | Mobile View - 2 |
 | :---: | :---: |
 | ![screenshot](assets/Screenshot-mobile-1.jpeg) | ![screenshot](assets/Screenshot-mobile-2.jpeg) |
 

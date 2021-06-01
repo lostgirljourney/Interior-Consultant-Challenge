@@ -10,7 +10,7 @@
       Demo
     </a>
     <span> | </span>
-    <a href="https://github.com/lostgirljourney/Interior-Consultant-Challenge">
+    <a href="https://devchallenges.io/solutions/z1beClLWGMSmgIG8sgID">
       Solution
     </a>
     <span> | </span>
@@ -31,7 +31,6 @@
 
 <p align = "center">
   <b>Laptop View</b>
-  <br>
   <br>
   <img src = "assets/Screenshot.jpeg">
 </p>

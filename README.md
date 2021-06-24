@@ -39,7 +39,7 @@
 | :---: | :---: |
 | ![screenshot](assets/Screenshot-mobile-1.jpeg) | ![screenshot](assets/Screenshot-mobile-2.jpeg) |
 
-Challenge was to create a ***Interior Consultant page*** following the design given in website. The page should be responsive.
+Challenge was to create a ***Interior Consultant page*** following the design given on the website. The page should be responsive.
 
 ### Built With
 
